@@ -71,6 +71,11 @@ BIMCraft 是一个**独立的 BIM 桌面软件**，目标是把 Revit 那套工�
 - **同一套绘制列表**：画布、PNG 导出、SVG 导出画的是同一份显示列表，所见即所得
 - **Revit 文件读取**独立成 crate，核心不依赖它，版权和许可边界清晰
 
+## 想深入看
+
+- **[架构说明](ARCHITECTURE.md)** — 分层、命令事务、关键子系统、性能基线
+- **[怎么验证](VERIFY.md)** — 不看源码也能自己验证的五条路径
+
 ## 技术栈
 
 Rust · egui · 自研几何内核与 CSG · 自研 2D/3D 渲染（Vulkan/Metal/DX12）· IFC（ISO 10303-21）· MCP · 跨平台打包（Windows MSI / macOS app / Linux AppImage）· 自动更新器
